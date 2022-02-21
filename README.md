@@ -1,6 +1,3 @@
-# REPORT ON THE NETWORK PROGRAMMING ASSIGNMENT
-
-
 # OPERATION INSTRUCTIONS
 1. Download the compressed folder, and extract all.
 2. Open 4 separate Terminals/Shell windows, and in each, cd into the Socket-Quiz directory
@@ -13,9 +10,7 @@
 Since there is no GUI involved, there is minimal Application layer programmming. The OS CLI and Python3 I/O takes care of it. 
 The programming handles the Network Layer transception. 
 The socket uses TCP (default), because it is errorless and ordered, although it lacks timing guarantees (leading to occasional bugs in the executed code).
-The server hosts the clients, and is always 'ON'. 
-
-                            
+The server hosts the clients, and is always 'ON'.                            
 
 # LANGUAGE TOOLS
 The programming has been done in Python 3.7, using select module to handle the simultaneous transactions.
